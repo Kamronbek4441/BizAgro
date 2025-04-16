@@ -1,11 +1,5 @@
 import React from "react";
 import "./Page2.css";
-import iconsf from "../../assets/iconsf.png";
-import phone from "../../assets/phone.png";
-import mail from "../../assets/mail.png";
-import location from "../../assets/location.png";
-import mainp2 from "../../assets/mainp2.png";
-import click from "../../assets/click.png";
 
 const Page2 = () => {
   return (
@@ -13,11 +7,11 @@ const Page2 = () => {
       <div className="page22">
         <div className="click">
           <p>Главная</p>
-          <img src={click} alt="" />
+          <img src="{click}" alt="" />
           <p>Расписание и оплата</p>
         </div>
         <div className="click1">
-          <img src={mainp2} alt="" />
+          <img src="{mainp2}" alt="" />
         </div>
       </div>
       <div class="text">
@@ -147,18 +141,18 @@ const Page2 = () => {
               ШКОЛА КИТАЙСКОГО ЯЗЫКА <br /> «КОНФУЦИЙ» в петербурге
             </h3>
             <p>
-              <img src={location} alt="" />
+              <img src="{location}" alt="" />
               Лиговский пр. 133 Е
             </p>
             <p>
-              <img src={phone} alt="" />
+              <img src="{phone}" alt="" />
               +7 (911) 123-45-67
             </p>
             <p>
-              <img src={mail} alt="" />
+              <img src="{mail}" alt="" />
               lavita_school@gmail.com
             </p>
-            <img src={iconsf} alt="" />
+            <img src="{iconsf}" alt="" />
           </div>
           <div className="foot2">
             <h2>О нас</h2>

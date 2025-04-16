@@ -1,75 +1,60 @@
 import React from "react";
 import "./Main.css";
-import w from "../../assets/w.png";
-import phone from "../../assets/phone.png";
-import mail from "../../assets/mail.png";
-import location from "../../assets/location.png";
 import { Link } from "react-router-dom";
+import BizAgro from "../../assets/bizagro.jpg";
+import search from "../../assets/search.png";
+import telegram from "../../assets/telegram.png";
+import phoneIcon from "../../assets/phoneIcon.png";
 
 const Main = () => {
   return (
-    <div className="main">
-      <div className="head1">
-        <div className="he1">
-          <h1 className="h1r">
-            ШКОЛА испанского ЯЗЫКА <br /> «ЛаВИта» в петербурге
-          </h1>
+    <div>
+      <header>
+        <div class="top-bar">
+          <div class="logo">
+            <img src={BizAgro} alt="" />
+            <span>Hirmonga baraka!</span>
+          </div>
+          <div class="contact-info">
+            <span>
+              <img src={phoneIcon} alt="" /> +(998) 90 598-51-14
+            </span>
+            <button class="search-btn">
+              <img src={search} alt="" />
+            </button>
+            <button class="telegram-btn">
+              <img src={telegram} alt="" />
+            </button>
+            <select class="language-selector">
+              <option>UZ</option>
+              <option>RU</option>
+              <option>EN</option>
+            </select>
+          </div>
         </div>
-        <div className="he2">
-          <p>
-            <img src={location} alt="" />
-            Лиговский пр. 133 Е
-          </p>
-          <p>
-            <img src={phone} alt="" />
-            +7 (911) 123-45-67
-          </p>
-          <p>
-            <img src={mail} alt="" />
-            lavita_school@gmail.com
-          </p>
-        </div>
-        <div className="he3">
-          <button>Запись на курсы</button>
-        </div>
-      </div>
-      <hr />
-      <div className="head2">
-        <div className="hea1">
-          <Link to="/Main1">
-            <img src={w} alt="" />
-          </Link>
-        </div>
-        <div className="hea2">
-          <Link to="/Page1" className="a">
-            О нас
-          </Link>
-          <Link to="/Page2" className="a">
-            Расписание и оплата
-          </Link>
-          <Link to="/Yaratilyapti" className="a">
-            Мероприятия
-          </Link>
-          <Link to="/Page3" className="a">
-            Экзамены
-          </Link>
-          <Link to="/Yaratilyapti" className="a">
-            Обучение в испании
-          </Link>
-          <Link to="/Yaratilyapti" className="a">
-            Новости
-          </Link>
-          <Link to="/Yaratilyapti" className="a">
-            Фотогалерея
-          </Link>
-          <Link to="/Page4" className="a">
-            Контакты
-          </Link>
-          <Link to="/Yaratilyapti" className="a">
-            Отзывы
-          </Link>
-        </div>
-      </div>
+        <nav class="navbar">
+          <ul>
+            <li>
+              <Link to="/Main1">BOSH SAHIFA</Link>
+            </li>
+            <li>
+              <Link to="/Page1">KOMPANIYA</Link>
+            </li>
+            <li>
+              <Link to="/Page2">MAHSULOT KATALOGI</Link>
+            </li>
+            <li>
+              <Link to="/Page3">BLOG</Link>
+            </li>
+            <li>
+              <Link to="/Page4">YANGILIKLAR</Link>
+            </li>
+            <li>
+              <Link to="/Yaratilyapti">KONTAKTLAR</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
     </div>
   );
 };

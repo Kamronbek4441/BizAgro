@@ -1,11 +1,5 @@
 import React from 'react'
 import "./Page4.css"
-import iconsf from "../../assets/iconsf.png";
-import phone from "../../assets/phone.png";
-import mail from "../../assets/mail.png";
-import location from "../../assets/location.png";
-import mainp4 from "../../assets/mainp4.png";
-import click from "../../assets/click.png";
 
 const Page4 = () => {
   return (
@@ -13,11 +7,11 @@ const Page4 = () => {
       <div className="page33">
         <div className="click">
           <p>Главная</p>
-          <img src={click} alt="" />
+          <img src="{click}" alt="" />
           <p>Контакты</p>
         </div>
         <div className="click1">
-          <img src={mainp4} alt="" />
+          <img src="{mainp4} "alt="" />
         </div>
       </div>
       <div className="hero">
@@ -29,31 +23,31 @@ const Page4 = () => {
         <div className="her">
           <h2>Расписание директора</h2>
           <p>
-            <img src={location} />
+            <img src="{location}" />
             Лиговский пр. 133 Е
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             Вторник 14:00-17:00, 18:30-20:00
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             Среда 14:00-20:00
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             Четверг 14:00-20:00
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             Пятница 15:00-17:00, 18:30-20:00
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             Суббота 15:00-18:30
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             Воскресенье - выходной день
           </p>
         </div>
@@ -79,18 +73,18 @@ const Page4 = () => {
               ШКОЛА КИТАЙСКОГО ЯЗЫКА <br /> «КОНФУЦИЙ» в петербурге
             </h3>
             <p>
-              <img src={location} alt="" />
+              <img src="{location}" alt="" />
               Лиговский пр. 133 Е
             </p>
             <p>
-              <img src={phone} alt="" />
+              <img src="{phone}" alt="" />
               +7 (911) 123-45-67
             </p>
             <p>
-              <img src={mail} alt="" />
+              <img src='{mail}' alt="" />
               lavita_school@gmail.com
             </p>
-            <img src={iconsf} alt="" />
+            <img src="{iconsf}" alt="" />
           </div>
           <div className="foot2">
             <h2>О нас</h2>

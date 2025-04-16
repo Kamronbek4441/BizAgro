@@ -1,11 +1,5 @@
 import React from 'react'
 import "./Page3.css"
-import iconsf from "../../assets/iconsf.png";
-import phone from "../../assets/phone.png";
-import mail from "../../assets/mail.png";
-import location from "../../assets/location.png";
-import mainp3 from "../../assets/mainp3.png";
-import click from "../../assets/click.png";
 
 const Page3 = () => {
   return (
@@ -13,11 +7,11 @@ const Page3 = () => {
       <div className="page33">
         <div className="click">
           <p>Главная</p>
-          <img src={click} alt="" />
+          <img src="{click}" alt="" />
           <p>Экзамены HSK</p>
         </div>
         <div className="click1">
-          <img src={mainp3} alt="" />
+          <img src="{mainp3}" alt="" />
         </div>
       </div>
       <div className="texx33">
@@ -57,28 +51,28 @@ const Page3 = () => {
           <br />
           <br />
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             <h3>1 уровень</h3> - словарный запас 150 слов - время проведения 40
             минут
           </p>
           <p>
-            <img src={click} alt="" /> <h3>2 уровень</h3> - словарный запас 300
+            <img src="{click}" alt="" /> <h3>2 уровень</h3> - словарный запас 300
             слов - время проведения 55 минут
           </p>
           <p>
-            <img src={click} alt="" /> <h3>3 уровень</h3> - словарный запас 600
+            <img src="{click}" alt="" /> <h3>3 уровень</h3> - словарный запас 600
             слов - время проведения 1 час 30 минут
           </p>
           <p>
-            <img src={click} alt="" /> <h3>4 уровень</h3> - словарный запас 1200
+            <img src="{click}" alt="" /> <h3>4 уровень</h3> - словарный запас 1200
             слов - время проведения 1 час 45 минут
           </p>
           <p>
-            <img src={click} alt="" /> <h3>5 уровень</h3> - словарный запас 2500
+            <img src="{click}" alt="" /> <h3>5 уровень</h3> - словарный запас 2500
             слов - время проведения 2 час 05 минут
           </p>
           <p>
-            <img src={click} alt="" /> <h3>6 уровень</h3> - словарный запас 5000
+            <img src="{click}" alt="" /> <h3>6 уровень</h3> - словарный запас 5000
             слов - время проведения 2 час 20 минут
           </p>
         </div>
@@ -87,27 +81,27 @@ const Page3 = () => {
           <br />
           <br />
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             <h3>1 уровень</h3> - 120 баллов из 200
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             <h3>2 уровень</h3> - 120 баллов из 200
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             <h3>3 уровень</h3> - 180 баллов из 300
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             <h3>4 уровень</h3> - 180 баллов из 300
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             <h3>5 уровень</h3> - 180 баллов из 300
           </p>
           <p>
-            <img src={click} alt="" />
+            <img src="{click}" alt="" />
             <h3>6 уровень</h3> - 180 баллов из 300
           </p>
         </div>
@@ -118,19 +112,19 @@ const Page3 = () => {
           Eget pellentesque nibh semper libero eget. Tempus eget diam.
         </p>
         <p>
-          <img src={click} alt="" />
+          <img src="{click}" alt="" />
           Condimentum sed massa eu dictum. Sapien, elementum curabitur at orci
           congue pharetra egestas imperdiet. Condimentum augue consequat,
           volutpat et ornare sed ut suscipit feugiat. Felis nulla nec montes,
           id.
         </p>
         <p>
-          <img src={click} alt="" />
+          <img src="{click}" alt="" />
           Bibendum faucibus sit a enim, ornare sed venenatis consequat, dapibus.
           Leo ornare id et in nullam leo tellus.
         </p>
         <p>
-          <img src={click} alt="" />
+          <img src="{click}" alt="" />
           Eu urna orci, ipsum amet adipiscing neque massa. Porta viverra donec
           felis non id urna, eget risus. Mattis dignissim egestas sapien, dui
           justo. Urna, tellus leo risus risus. Sodales turpis quis bibendum
@@ -161,18 +155,18 @@ const Page3 = () => {
               ШКОЛА КИТАЙСКОГО ЯЗЫКА <br /> «КОНФУЦИЙ» в петербурге
             </h3>
             <p>
-              <img src={location} alt="" />
+              <img src="{location}" alt="" />
               Лиговский пр. 133 Е
             </p>
             <p>
-              <img src={phone} alt="" />
+              <img src="{phone" alt="" />
               +7 (911) 123-45-67
             </p>
             <p>
-              <img src={mail} alt="" />
+              <img src="{mail}" alt="" />
               lavita_school@gmail.com
             </p>
-            <img src={iconsf} alt="" />
+            <img src="{iconsf}" alt="" />
           </div>
           <div className="foot2">
             <h2>О нас</h2>
