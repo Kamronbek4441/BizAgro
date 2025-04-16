@@ -35,7 +35,7 @@ const Main = () => {
         <nav class="navbar">
           <ul>
             <li>
-              <Link to="/Main1">BOSH SAHIFA</Link>
+              <Link to="/">BOSH SAHIFA</Link>
             </li>
             <li>
               <Link to="/Page1">KOMPANIYA</Link>
