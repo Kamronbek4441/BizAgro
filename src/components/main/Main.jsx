@@ -38,7 +38,7 @@ const Main = () => {
               <Link to="/">BOSH SAHIFA</Link>
             </li>
             <li>
-              <Link to="/Page1">KOMPANIYA</Link>
+              <Link to="/About">KOMPANIYA</Link>
             </li>
             <li>
               <Link to="/Page2">MAHSULOT KATALOGI</Link>

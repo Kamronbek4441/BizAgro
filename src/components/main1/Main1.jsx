@@ -18,6 +18,7 @@ import sabzavot from "../../assets/sabzavot.png";
 import chegirma from "../../assets/chegirma.png";
 import ifoda from "../../assets/ifoda.png";
 import uzex from "../../assets/uzex.png";
+import { Link } from 'react-router-dom';
 
 const Main1 = () => {
   return (
@@ -117,7 +118,7 @@ const Main1 = () => {
           granul va quyuq holatdagi o‘g‘itlarni ishlab chiqarish
           rejalashtirilgan.
         </p>
-        <button>Batafsil</button>
+          <Link className="batafsil" to="/About">Batafsil</Link>
       </section>
 
       <div class="container-card">

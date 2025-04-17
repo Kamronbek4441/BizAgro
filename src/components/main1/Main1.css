@@ -19,7 +19,8 @@
 .banner button {
   background-color: #00b700;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 30px;
+  border-radius: 15px;
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
@@ -214,18 +215,17 @@
   line-height: 33px;
 }
 
-.about button {
+.about .batafsil {
   background-color: #00b700;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 30px;
   border: none;
   font-size: 1.2rem;
-  cursor: pointer;
   transition: background-color 0.3s;
   border-radius: 12px;
 }
 
-.about button:hover {
+.about .batafsil:hover {
   background-color: #218838;
 }
 
