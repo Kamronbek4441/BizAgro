@@ -41,7 +41,7 @@ const Main = () => {
               <Link to="/About">KOMPANIYA</Link>
             </li>
             <li>
-              <Link to="/Page2">MAHSULOT KATALOGI</Link>
+              <Link to="/MahsulotKatalogi">MAHSULOT KATALOGI</Link>
             </li>
             <li>
               <Link to="/Page3">BLOG</Link>
