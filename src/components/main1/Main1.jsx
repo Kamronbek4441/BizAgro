@@ -99,7 +99,7 @@ const Main1 = () => {
             <p class="product-name">ENTUS</p>
           </div>
 
-          <button class="nav-btn right">&#10095;</button>
+          <button class="nav-btn right"><Link to="MahsulotKatalogi"></Link></button>
         </div>
       </section>
 
@@ -118,75 +118,10 @@ const Main1 = () => {
           granul va quyuq holatdagi o‘g‘itlarni ishlab chiqarish
           rejalashtirilgan.
         </p>
-          <Link className="batafsil" to="/About">Batafsil</Link>
-      </section>
-
-      <div class="container-card">
-        <div class="card">
-          <img src={paxta} alt="" />
-          <div class="label">SANOAT EKINLARI</div>
-        </div>
-        <br />
-        <div class="card">
-          <img src={mevalar} alt="" />
-          <div class="label">BOG'DORCHILIK</div>
-        </div>
-        <br />
-        <div class="card">
-          <img src={parnik} alt="" />
-          <div class="label">ISSIQXONA</div>
-        </div>
-        <br />
-        <div class="card">
-          <img src={sabzavot} alt="" />
-          <div class="label">SABZAVOTCHILIK</div>
-        </div>
-      </div>
-
-      <section class="news-section">
-        <h2 class="section-title">YANGILIKLAR</h2>
-        <div class="news-cards">
-          <div class="card">
-            <img src={ifoda} alt="Ifoda yangilik" />
-            <div class="card-info">
-              <div class="card-meta">
-                <span class="date">25.12.2024</span>
-                <span class="views">👁 410</span>
-              </div>
-              <p class="card-text">
-                Orozboeva Zulfiya xalqaro belbog‘li kurash musobaqasida 🥇
-                o‘rinni egalladi.
-              </p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src={chegirma} alt="Chegirmalar" />
-            <div class="card-info">
-              <div class="card-meta">
-                <span class="date">09.04.2024</span>
-                <span class="views">👁 531</span>
-              </div>
-              <p class="card-text">
-                15% gacha chegirmalar bilan yangi katalog siz uchun tayyor!
-              </p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src={uzex} alt="UZEX" />
-            <div class="card-info">
-              <div class="card-meta">
-                <span class="date">29.03.2024</span>
-                <span class="views">👁 534</span>
-              </div>
-              <p class="card-text">
-                UZEX ko‘magida ekinlaringizni yanada ishonchli yetishtiring!
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        <Link className="batafsil" to="/About">
+          Batafsil
+        </Link>
+      </section>  
 
       <div className="feedback-container">
         <h2 className="feedback-title">Fikr-Mulohaza</h2>
