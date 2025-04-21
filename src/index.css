@@ -5,3 +5,7 @@
   font-family: sans-serif;
   width: auto;
 }
+
+a {
+  text-decoration: none;
+}

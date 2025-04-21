@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Main1.css"
+import React from "react";
+import "./Main1.css";
 import ogitlar from "../../assets/o'g'itlar.png";
 import hertibisidlar from "../../assets/hertibisidlar.png";
 import fungisidlar from "../../assets/fungisidlar.png";
@@ -18,7 +18,7 @@ import sabzavot from "../../assets/sabzavot.png";
 import chegirma from "../../assets/chegirma.png";
 import ifoda from "../../assets/ifoda.png";
 import uzex from "../../assets/uzex.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Main1 = () => {
   return (
@@ -32,7 +32,16 @@ const Main1 = () => {
       <div class="container1">
         <h1 class="title">MAHSULOT KATALOGI</h1>
 
-        <div class="main-card">
+        <div class="card10">
+          <div class="card-image">
+            <img src={ogitlar} alt="O'g'itlar rasmi" />
+          </div>
+          <div class="card-content">
+            <h2>O‘G‘ITLAR</h2>
+            <a href="/MahsulotKatalogi">KATALOGGA O‘TING &#10095;</a>
+          </div>
+        </div>
+        {/* <div class="main-card">
           <img src={ogitlar} alt="" />
           <div class="main-card-text">
             <h2>O‘G‘ITLAR</h2>
@@ -40,7 +49,7 @@ const Main1 = () => {
               KATALOGGA O‘TING →
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div class="categories">
           <div class="category">
@@ -73,7 +82,9 @@ const Main1 = () => {
       <section class="products-section">
         <h2 class="title">TANLANGAN MAHSULOTLAR</h2>
         <div class="product-carousel">
-          <button class="nav-btn left">&#10094;</button>
+          <button class="nav-btn left">
+            <Link to="MahsulotKatalogi">&#10094;</Link>
+          </button>
 
           <div class="product-card">
             <img src={pinoks} alt="" class="product-img" />
@@ -99,7 +110,9 @@ const Main1 = () => {
             <p class="product-name">ENTUS</p>
           </div>
 
-          <button class="nav-btn right"><Link to="MahsulotKatalogi"></Link></button>
+          <button class="nav-btn right">
+            <Link to="MahsulotKatalogi">&#10095;</Link>
+          </button>
         </div>
       </section>
 
@@ -121,7 +134,7 @@ const Main1 = () => {
         <Link className="batafsil" to="/About">
           Batafsil
         </Link>
-      </section>  
+      </section>
 
       <div className="feedback-container">
         <h2 className="feedback-title">Fikr-Mulohaza</h2>
@@ -151,6 +164,6 @@ const Main1 = () => {
       </footer>
     </div>
   );
-}
+};
 
-export default Main1
+export default Main1;
