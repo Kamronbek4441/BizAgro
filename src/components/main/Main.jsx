@@ -44,13 +44,13 @@ const Main = () => {
               <Link to="/MahsulotKatalogi">MAHSULOT KATALOGI</Link>
             </li>
             <li>
-              <Link to="/Page3">BLOG</Link>
+              <Link to="/">BLOG</Link>
             </li>
             <li>
-              <Link to="/Page4">YANGILIKLAR</Link>
+              <Link to="/">YANGILIKLAR</Link>
             </li>
             <li>
-              <Link to="/Yaratilyapti">KONTAKTLAR</Link>
+              <Link to="/Kontaktlar">KONTAKTLAR</Link>
             </li>
           </ul>
         </nav>
