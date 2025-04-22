@@ -1,9 +1,11 @@
 import React from "react";
 import "./MahsulotKatalogi.css";
-import pinoks from "../../assets/pinoks.png";
-import landask from "../../assets/landask.png";
-import suris from "../../assets/suris.png";
-import entus from "../../assets/entus.png";
+import orgaguman from "../../assets/orgaguman.png";
+import orgakaliyfos from "../../assets/orgakaliyfos.png";
+import organex30 from "../../assets/organex30.png";
+import orgauan32 from "../../assets/orgauan32.png";
+import orgapzn from "../../assets/orgapzn.png";
+import organexsuper from "../../assets/organexsuper.png";
 
 const MahsulotKatalogi = () => {
   return (
@@ -11,27 +13,39 @@ const MahsulotKatalogi = () => {
       <section class="products-section">
         <div class="product-carousel">
           <div class="product-card">
-            <img src={pinoks} alt="" class="product-img" />
+            <img src={orgaguman} alt="" class="product-img" />
             <span class="eco-icon">🍃</span>
-            <p class="product-name">PINOKS</p>
+            <p class="product-name">ORGA GUMAT</p>
           </div>
 
           <div class="product-card">
-            <img src={landask} alt="" class="product-img" />
+            <img src={orgakaliyfos} alt="" class="product-img" />
             <span class="eco-icon">🍃</span>
-            <p class="product-name">LANDASK</p>
+            <p class="product-name">ORGA KALIY FOS</p>
           </div>
 
           <div class="product-card">
-            <img src={suris} alt="" class="product-img" />
+            <img src={orgauan32} alt="" class="product-img" />
             <span class="eco-icon">🍃</span>
-            <p class="product-name">SURIS</p>
+            <p class="product-name">ORGAUAN 32</p>
           </div>
 
           <div class="product-card">
-            <img src={entus} alt="" class="product-img" />
+            <img src={orgapzn} alt="" class="product-img" />
             <span class="eco-icon">🍃</span>
-            <p class="product-name">ENTUS</p>
+            <p class="product-name">ORGA PZN</p>
+          </div>
+          
+          <div class="product-card">
+            <img src={organex30} alt="" class="product-img" />
+            <span class="eco-icon">🍃</span>
+            <p class="product-name">ORGANEX 30</p>
+          </div>
+
+          <div class="product-card">
+            <img src={organexsuper} alt="" class="product-img" />
+            <span class="eco-icon">🍃</span>
+            <p class="product-name">ORGANEX SUPER</p>
           </div>
         </div>
       </section>

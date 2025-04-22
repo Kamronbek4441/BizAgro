@@ -259,7 +259,8 @@
 
 .product-name {
   margin-top: 10px;
-  font-weight: 600;
+  font-size: 18.5px;
+  font-weight: lighter;
 }
 
 .nav-btn {

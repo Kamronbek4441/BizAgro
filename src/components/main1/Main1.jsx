@@ -7,17 +7,10 @@ import insekticidlar from "../../assets/insectigidlar.png";
 import nematozidlar from "../../assets/nematozidlar.png";
 import stimulyatorlar from "../../assets/stimulyatorlar.png";
 import akaratsidlar from "../../assets/akaratsidlar.png";
-import pinoks from "../../assets/pinoks.png";
-import landask from "../../assets/landask.png";
-import suris from "../../assets/suris.png";
-import entus from "../../assets/entus.png";
-import paxta from "../../assets/paxta.png";
-import mevalar from "../../assets/mevalar.png";
-import parnik from "../../assets/parnik.png";
-import sabzavot from "../../assets/sabzavot.png";
-import chegirma from "../../assets/chegirma.png";
-import ifoda from "../../assets/ifoda.png";
-import uzex from "../../assets/uzex.png";
+import orgaguman from "../../assets/orgaguman.png";
+import orgakaliyfos from "../../assets/orgakaliyfos.png";
+import organex30 from "../../assets/organex30.png";
+import orgauan32 from "../../assets/orgauan32.png";
 import { Link } from "react-router-dom";
 
 const Main1 = () => {
@@ -87,27 +80,27 @@ const Main1 = () => {
           </button>
 
           <div class="product-card">
-            <img src={pinoks} alt="" class="product-img" />
+            <img src={orgaguman} alt="" class="product-img" />
             <span class="eco-icon">🍃</span>
-            <p class="product-name">PINOKS</p>
+            <p class="product-name">ORGA GUMAT</p>
           </div>
 
           <div class="product-card">
-            <img src={landask} alt="" class="product-img" />
+            <img src={orgakaliyfos} alt="" class="product-img" />
             <span class="eco-icon">🍃</span>
-            <p class="product-name">LANDASK</p>
+            <p class="product-name">ORGA KALIY FOS</p>
           </div>
 
           <div class="product-card">
-            <img src={suris} alt="" class="product-img" />
+            <img src={organex30} alt="" class="product-img" />
             <span class="eco-icon">🍃</span>
-            <p class="product-name">SURIS</p>
+            <p class="product-name">ORGANEX 30</p>
           </div>
 
           <div class="product-card">
-            <img src={entus} alt="" class="product-img" />
+            <img src={orgauan32} alt="" class="product-img" />
             <span class="eco-icon">🍃</span>
-            <p class="product-name">ENTUS</p>
+            <p class="product-name">ORGAUAN 32</p>
           </div>
 
           <button class="nav-btn right">
