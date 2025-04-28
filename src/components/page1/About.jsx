@@ -29,7 +29,7 @@ const About = () => {
           </p>
 
           <img
-            src="https://teletype.in/files/5d/e1/5de15e1f-b30d-44e7-9dfa-729e25e98886.jpeg"
+            src="https://gallaorolkaliyfosfat.uz/wp-content/uploads/2022/02/podkormkarasteniy1.jpg"
             alt="Zavod ichki ko‘rinishi"
             class="image"
           />
@@ -50,7 +50,7 @@ const About = () => {
           </p>
 
           <img
-            src="https://teletype.in/files/4c/b3/4cb3bc43-f31f-4830-aa9c-f61984869391.jpeg"
+            src="https://www.gazeta.uz/media/img/2025/04/7AprJ017443359249336_b.webp"
             alt="Omborxona"
             class="image"
           />
@@ -64,7 +64,7 @@ const About = () => {
           </p>
 
           <img
-            src="https://teletype.in/files/76/fb/76fb798c-ef04-4a79-b916-84c1bf8cb1f0.jpeg"
+            src="https://mavzular.uz/wp-content/uploads/2023/04/Fosforli-ogitlar.-Fosfatli-xom-ashyolar-haqida.jpeg"
             alt="Daladagi ishchilar"
             class="image"
           />

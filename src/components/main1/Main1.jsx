@@ -47,27 +47,19 @@ const Main1 = () => {
         <div class="categories">
           <div class="category">
             <img src={akaratsidlar} alt="" />
-            <span>Akaratsidlar</span>
+            <span>Organik</span>
           </div>
           <div class="category">
             <img src={stimulyatorlar} alt="" />
-            <span>Stimulyatorlar</span>
+            <span>Organo Mineral</span>
           </div>
           <div class="category">
             <img src={nematozidlar} alt="" />
-            <span>Nematotsidlar</span>
+            <span>Mineral</span>
           </div>
           <div class="category">
             <img src={insekticidlar} alt="" />
-            <span>Insektitsidlar</span>
-          </div>
-          <div class="category">
-            <img src={fungisidlar} alt="" />
-            <span>Fungitsidlar</span>
-          </div>
-          <div class="category">
-            <img src={hertibisidlar} alt="" />
-            <span>Herbitsidlar</span>
+            <span>Fungisid</span>
           </div>
         </div>
       </div>
