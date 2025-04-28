@@ -11,6 +11,12 @@ const MahsulotKatalogi = () => {
   return (
     <div>
       <section class="products-section">
+        <div className="button10">
+          <button className="btn">Organik</button>
+          <button className="btn">Organo Mineral</button>
+          <button className="btn">Mineral</button>
+          <button className="btn">Fungisid</button>
+        </div>
         <div class="product-carousel">
           <div class="product-card">
             <img src={orgaguman} alt="" class="product-img" />

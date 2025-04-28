@@ -1,0 +1,16 @@
+.button10 {
+    padding: 0px 50px 30px 130px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.button10 > .btn {
+    background-color: #00b500;
+    font-size: 17px;
+    font-weight: lighter;
+    border: none;
+    padding: 15px 28px;
+    color: white;
+    border-radius: 15px;
+}
