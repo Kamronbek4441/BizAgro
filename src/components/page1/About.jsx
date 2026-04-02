@@ -64,7 +64,7 @@ const About = () => {
           </p>
 
           <img
-            src="https://mavzular.uz/wp-content/uploads/2023/04/Fosforli-ogitlar.-Fosfatli-xom-ashyolar-haqida.jpeg"
+            src="https://cdn.uza.uz/2023/02/27/09/57/leFlTSBOPV2e3irrttCebrc0oR9enVkK_front.jpg"
             alt="Daladagi ishchilar"
             class="image"
           />
