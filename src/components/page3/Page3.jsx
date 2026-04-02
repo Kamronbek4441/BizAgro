@@ -1,33 +1,46 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Page3.css";
 
 const Page3 = () => {
+  const form = useRef();
+
+  const sendMessageToTelegram = (e) => {
+    e.preventDefault();
+
+    const botToken = "8392553502:AAEay7Yp1q0QCs4qlZ5Fcas49LYpiAmjVMA"; // Telegram bot token
+    const chatId = "-1003838043358"; // Chat ID
+    const name = form.current.from_name.value;
+    const email = form.current.from_email.value;
+    const message = form.current.message.value;
+
+    const text = `📩 Yangi xabar!\nIsm: ${name}\nEmail: ${email}\nXabar: ${message}`;
+
+    fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`)
+      .then(res => res.json())
+      .then(data => {
+        if (data.ok) {
+          alert("Xabaringiz yuborildi!");
+          form.current.reset();
+        } else {
+          alert("Xatolik yuz berdi, qayta urinib ko'ring.");
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        alert("Xatolik yuz berdi, qayta urinib ko'ring.");
+      });
+  };
+
   return (
     <section className="contact-container">
       <h1 className="contact-title">Biz bilan bog'laning</h1>
 
-      <div className="contact-grid">
-        <div className="contact-card">
-          <h3>Manzil</h3>
-          <p>Namangan shahri, Oromgoh ko‘chasi, 27-uy</p>
-          <p>Toshkent shahri, Abdulla Qahhor ko‘chasi, 46-uy</p>
-        </div>
-        <div className="contact-card">
-          <h3>Telefon</h3>
-          <a href="tel:+998781470500">+998 90 598-51-14</a>
-        </div>
-        <div className="contact-card">
-          <h3>Email</h3>
-          <a href="mailto:info@ifoda.uz">info@bizagro.uz</a>
-        </div>
-      </div>
-
       <div className="form-section">
         <h2>Fikr-mulohaza yuboring</h2>
-        <form>
-          <input type="text" placeholder="Ismingiz" required />
-          <input type="email" placeholder="Email manzilingiz" required />
-          <textarea rows="5" placeholder="Xabaringiz" required></textarea>
+        <form ref={form} onSubmit={sendMessageToTelegram}>
+          <input type="text" name="from_name" placeholder="Ismingiz" required />
+          <input type="email" name="from_email" placeholder="Email manzilingiz" required />
+          <textarea name="message" rows="5" placeholder="Xabaringiz" required></textarea>
           <button type="submit">Yuborish</button>
         </form>
       </div>

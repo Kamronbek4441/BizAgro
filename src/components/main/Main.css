@@ -157,7 +157,7 @@ a {
     text-align:center;
     padding:12px 0;
     border-radius:8px;
-    background-color: rgba(255,255,255,0.25); /* 25% oq overlay */
+    background-color: rgba(255,255,255,0.35); /* 25% oq overlay */
     color: white !important;
     transition: 0.3s;
   }
