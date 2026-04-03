@@ -32,7 +32,8 @@ const Page3 = () => {
   };
 
   return (
-    <section className="contact-container">
+    <div className="bg-image">
+      <section className="contact-container">
       <h1 className="contact-title">Biz bilan bog'laning</h1>
 
       <div className="form-section">
@@ -45,6 +46,7 @@ const Page3 = () => {
         </form>
       </div>
     </section>
+    </div>
   );
 };
 
