@@ -1,9 +1,10 @@
 /* ==================== BANNER ==================== */
 .banner {
-  background: url('../../assets/banner.png') center/cover no-repeat;
+  background: url('https://api.cabinet.smart-market.uz/uploads/images/ff8081815d0b6fb1619e5e3e') center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 280px 120px;
+   transition: background 1s ease-in-out; /* animatsiya uchun */
 }
 
 .banner h1 {
@@ -17,7 +18,7 @@
 }
 
 .banner button {
-  background-color: #00e500;
+  background-color: #00e500;  
   color: white;
   padding: 15px 30px;
   border-radius: 15px;
@@ -414,7 +415,6 @@ footer p {
   }
 }
 
-/* Small Mobile */
 @media(max-width: 480px) {
   .banner {
     padding: 120px 10px;
