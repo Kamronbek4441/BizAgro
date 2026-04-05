@@ -75,9 +75,8 @@
 
 .eco-icon {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 20px;
+  /* top: 10px; */
+  /* left: 10px; */
 }
 
 .product-name {
