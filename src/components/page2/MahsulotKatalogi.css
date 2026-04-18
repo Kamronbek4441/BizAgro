@@ -1,4 +1,77 @@
-/* ===== BADGE TEXT (NEW STYLE) ===== */
+.product-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 120px;
+}
+
+/* CARD SIZE FIX */
+.product-card {
+  width: 260px;          /* hammasi bir xil */
+  height: 350px;         /* balandlik fix */
+  background-color: #f3fef3;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  overflow: hidden;      /* chiqib ketmasin */
+}
+
+.product-card img {
+  width: 100%;
+  height: 207px;      /* hamma rasm bir xil balandlik */
+  object-fit: cover;  /* rasm buzilmay crop bo‘ladi */
+  border-radius: 10px;
+}
+
+/* ===== FILTER BUTTON ===== */
+.button10 {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button10 > .btn {
+  background: rgba(255, 255, 255, 0.7);
+  color: #2e7d32;
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  border: 1px solid rgba(0, 180, 0, 0.2);
+  backdrop-filter: blur(6px);
+
+  padding: 12px 22px;
+  border-radius: 25px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* hover */
+.button10 > .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* active */
+.btn.active {
+  background: #00b500;
+  color: white;
+  border: 1px solid #00b500;
+  box-shadow: 0 6px 15px rgba(0, 180, 0, 0.3);
+}
+
+/* ===== BADGE ===== */
 .badge-text {
   position: absolute;
   top: 12px;
@@ -17,24 +90,21 @@
   border: 1px solid rgba(0, 180, 0, 0.2);
 
   backdrop-filter: blur(6px);
-
   transition: 0.3s;
 }
 
-/* Hover effekt */
 .product-card:hover .badge-text {
   transform: scale(1.08);
-  letter-spacing: 1px;
 }
 
-/* description style */
+/* ===== DESC ===== */
 .product-desc {
   font-size: 14px;
   color: #555;
   margin-top: 5px;
 }
 
-/* button style */
+/* ===== BUTTON ===== */
 .view-btn {
   display: inline-block;
   margin-top: 10px;
@@ -49,4 +119,22 @@
 .view-btn:hover {
   background: #00e500;
   transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+  .product-carousel {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .product-carousel {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .product-carousel {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
